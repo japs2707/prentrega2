@@ -1,0 +1,40 @@
+.logo_respoteria_header_footer {
+    width: 50px;
+    height: 50px;
+    ;
+  }
+
+.pagina {
+    background-image: url(https://img.freepik.com/fotos-premium/torta-hd-fondo-pantalla-imagen-fotografica_993236-171.jpg);
+    background-size: 250vh;
+}
+.segunda_pagina {
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 250px;
+    height: 250px;
+    left: 30px; 
+    
+}
+
+.recetas {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 250px;
+    height: 250px;
+    left: 30px; 
+}
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+}
+
+.d-block w-100 {
+    width: 900px;
+    height: 500px;
+}
