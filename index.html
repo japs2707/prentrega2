@@ -62,6 +62,26 @@
                     <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/wD-g_Gyn2I4?si=UKrpEpK4XsqeiedQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                 </div>
+                <h1>Cotizador de Pasteles</h1>
+
+                <label for="tamano">Tamaño de la torta:</label>
+                <select id="tamano">
+                  <option value="Pequeño">Pequeño</option>
+                  <option value="Mediano">Mediano</option>
+                  <option value="Grande">Grande</option>
+                </select>
+                <br>
+                <label for="complejidad">Complejidad del diseño:</label>
+                <select id="complejidad">
+                  <option value="Básico">Básico</option>
+                  <option value="Intermedio">Intermedio</option>
+                  <option value="Avanzado">Avanzado</option>
+                </select>
+                <br>
+                <button onclick="calcularPrecio()">Calcular Precio Total</button>
+                <p id="resultado"></p>
+                
+                <script src="cotizador.js"></script>
               </div>
                 <section>
                   <h2 class="aprende_recetas">APRENDE NUESTRAS RECETAS</h2>
