@@ -317,5 +317,40 @@
     ) ;
     gap: 15px;
 
-
  }
+
+ #products-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cart-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 5px;
+}
+
+#clear-cart {
+    width: 130px;
+}
+
+.producto_carrito {
+    width: 130px;
+    height: 90px;
+}

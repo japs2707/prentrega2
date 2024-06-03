@@ -61,27 +61,26 @@
                   <div class="col">
                     <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/wD-g_Gyn2I4?si=UKrpEpK4XsqeiedQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
+                  <div id="cart-container">
+                      <h2>Carrito de Compras</h2>
+                      <ul id="cart-items"></ul>
+                      <p>Total: $<span id="cart-total">0.00</span></p>
+                      <button id="clear-cart">Vaciar Carrito</button>
+                  </div>
+                  <div id="products-container">
+                    <div class="product">
+                        <h3>Pastel de Chocolate</h3>
+                        <img class="producto_carrito" src="https://assets.unileversolutions.com/recipes-v2/217393.jpg?im=Resize,height=580;Crop,size=(932,580),gravity=Center" alt="pastel de Chocolate">
+                        <p>Precio: $2500</p>
+                        <button class="add-to-cart" data-id="1" data-name="Pastel de Chocolate" data-price="2500">Agregar al Carrito</button>
+                    </div>
+                    <div class="product">
+                        <h3>Galletas de Mantequilla</h3>
+                        <img class="producto_carrito" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyGCMF2gyHLKMgb80iPn2X63JuEeZUfW8LA&s" alt="Galletas de Mantequilla"
+                        <p>Precio: $800</p>
+                        <button class="add-to-cart" data-id="2" data-name="Galletas de Mantequilla" data-price="800">Agregar al Carrito</button>
+                    </div>
                 </div>
-                <h1>Cotizador de Pasteles</h1>
-
-                <label for="tamano">Tamaño de la torta:</label>
-                <select id="tamano">
-                  <option value="Pequeño">Pequeño</option>
-                  <option value="Mediano">Mediano</option>
-                  <option value="Grande">Grande</option>
-                </select>
-                <br>
-                <label for="complejidad">Complejidad del diseño:</label>
-                <select id="complejidad">
-                  <option value="Básico">Básico</option>
-                  <option value="Intermedio">Intermedio</option>
-                  <option value="Avanzado">Avanzado</option>
-                </select>
-                <br>
-                <button onclick="calcularPrecio()">Calcular Precio Total</button>
-                <p id="resultado"></p>
-                
-                <script src="cotizador.js"></script>
               </div>
                 <section>
                   <h2 class="aprende_recetas">APRENDE NUESTRAS RECETAS</h2>
@@ -174,6 +173,6 @@
            
         </footer>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <script src="./js/javascript.js"></script>
     </body>
 </html>
